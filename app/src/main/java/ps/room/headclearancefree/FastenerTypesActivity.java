@@ -98,7 +98,6 @@ public class FastenerTypesActivity extends AppCompatActivity implements Fastener
     public void fetchFastenerTypes() {
         MyDatabaseHelper myDatabaseHelper = MyDatabaseHelper.getInstance(this);
         try {
-
             myDatabaseHelper.createDataBase();
         } catch (Exception e) {
             e.printStackTrace();

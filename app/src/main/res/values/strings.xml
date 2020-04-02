@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Head Clearance Free</string>
+    <string name="app_name">Bolt Head Clearance Free</string>
     <string name="fastener_img_cont_desc">fastener_img_cont_desc</string>
     <string name="fastener_type">fastener_type</string>
     <string name="title_activity_fasteners_list">FastenersListActivity</string>
