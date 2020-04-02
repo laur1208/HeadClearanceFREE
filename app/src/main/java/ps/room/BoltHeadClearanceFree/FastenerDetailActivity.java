@@ -1,4 +1,4 @@
-package ps.room.headclearancefree;
+package ps.room.BoltHeadClearanceFree;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
@@ -35,7 +35,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-import ps.room.headclearancefree.DatabaseTablesContract.FastenerDescriptionEntry;
+import ps.room.BoltHeadClearanceFree.DatabaseTablesContract.FastenerDescriptionEntry;
 
 public class FastenerDetailActivity extends AppCompatActivity implements  FastenerDetailRecyclerAdapter.ViewHolder.OnGridCellClickListener {
     /*----------- grid variables -----------*/

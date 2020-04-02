@@ -1,4 +1,4 @@
-package ps.room.headclearancefree;
+package ps.room.BoltHeadClearanceFree;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -22,7 +22,7 @@ public class SettingsActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         try {
-            Class<?> c = Class.forName("ps.room.headclearancefree."+CALLEE_ACTIVITY);
+            Class<?> c = Class.forName("ps.room.BoltHeadClearanceFree."+CALLEE_ACTIVITY);
             Intent backIntent = new Intent(this, c);
             backIntent.putExtra("VIBRATION_TOGGLE", VIBRATION_TOGGLE);
             setResult(RESULT_OK, backIntent);

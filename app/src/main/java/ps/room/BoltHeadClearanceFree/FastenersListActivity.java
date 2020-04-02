@@ -1,4 +1,4 @@
-package ps.room.headclearancefree;
+package ps.room.BoltHeadClearanceFree;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -26,7 +26,7 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
 
-import ps.room.headclearancefree.DatabaseTablesContract.FastenerDescriptionEntry;
+import ps.room.BoltHeadClearanceFree.DatabaseTablesContract.FastenerDescriptionEntry;
 
 public class FastenersListActivity extends AppCompatActivity implements FastenersListRecyclerAdapter.ViewHolder.OnFastenerListener {
     private static final String TAG = "==FASTENER LIST LOG==";

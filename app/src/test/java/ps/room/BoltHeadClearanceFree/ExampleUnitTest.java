@@ -1,4 +1,4 @@
-package ps.room.headclearancefree;
+package ps.room.BoltHeadClearanceFree;
 
 import org.junit.Test;
 

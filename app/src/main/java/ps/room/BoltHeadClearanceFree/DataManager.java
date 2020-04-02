@@ -1,4 +1,4 @@
-package ps.room.headclearancefree;
+package ps.room.BoltHeadClearanceFree;
 
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -10,9 +10,9 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import ps.room.headclearancefree.DatabaseTablesContract.FastenerDescriptionEntry;
-import ps.room.headclearancefree.DatabaseTablesContract.FastenerSizesEntry;
-import ps.room.headclearancefree.DatabaseTablesContract.FastenerTypesEntry;
+import ps.room.BoltHeadClearanceFree.DatabaseTablesContract.FastenerDescriptionEntry;
+import ps.room.BoltHeadClearanceFree.DatabaseTablesContract.FastenerSizesEntry;
+import ps.room.BoltHeadClearanceFree.DatabaseTablesContract.FastenerTypesEntry;
 
 class DataManager {
     private static DataManager ourInstance = null;

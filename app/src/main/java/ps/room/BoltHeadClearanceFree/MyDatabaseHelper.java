@@ -1,4 +1,4 @@
-package ps.room.headclearancefree;
+package ps.room.BoltHeadClearanceFree;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,7 +13,7 @@ import java.io.OutputStream;
 
 public class MyDatabaseHelper extends SQLiteOpenHelper {
     @SuppressLint("SdCardPath")
-    private static String DB_PATH = "/data/data/ps.room.headclearancefree/databases/";
+    private static String DB_PATH = "/data/data/ps.room.BoltHeadClearanceFree/databases/";
     private static String DB_NAME = "HeadClearanceFree";
     private SQLiteDatabase myDataBase;
     private final Context myContext;
