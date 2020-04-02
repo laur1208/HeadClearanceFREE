@@ -15,7 +15,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -408,7 +407,7 @@ public class FastenerDetailActivity extends AppCompatActivity implements  Fasten
     public void onGridCellClick(int position, View clickedCell) {
         /*----header click -----*/
         if(position < NR_OF_COLUMNS){
-            Log.d(TAG, "onGridCellClick: HEADER");
+            //Log.d(TAG, "onGridCellClick: HEADER");
         }
         /*---- button click -----*/
         else if (position % NR_OF_COLUMNS == 0){

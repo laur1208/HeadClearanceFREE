@@ -222,7 +222,7 @@ public class FastenersListActivity extends AppCompatActivity implements Fastener
             }
         }catch (SQLException ex)
         {
-            Log.i(TAG,"[Update fastener error]: " + ex);
+            //Log.i(TAG,"[Update fastener error]: " + ex);
         }
     }
 }
